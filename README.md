@@ -1,7 +1,7 @@
 # small-http-php
 
 
-##Improvements
+## Improvements
 
 Using http_build_query to get the query-string out of an request-array.(you could also use the array itself, therefore see: http://php.net/manual/en/function.curl-setopt.php)
 Returning the response instead of echoing it. Btw you can avoid the returning by removing the line curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);. After that the return value is a boolean(true = request was successful otherwise an error occured) and the response is echoed. See: http://php.net/en/manual/function.curl-exec.php
@@ -10,27 +10,27 @@ Using boolean values for the curl_setopt function instead of using any number.(I
 Ability to make HTTP-PUT/DELETE calls(useful for RESTful service testing)
 
 
-##Example Usage
+## Example Usage
 
-#GET
+# GET
 
 ```
 $response = HTTPRequester::HTTPGet("http://localhost/service/foobar.php", array("getParam" => "foobar"));
 ```
 
-#POST
+# POST
 
 ```
 $response = HTTPRequester::HTTPPost("http://localhost/service/foobar.php", array("postParam" => "foobar"));
 ```
 
-#PUT
+# PUT
 
 ```
 $response = HTTPRequester::HTTPPut("http://localhost/service/foobar.php", array("putParam" => "foobar"));
 ```
 
-#DELETE
+# DELETE
 
 ```
 $response = HTTPRequester::HTTPDelete("http://localhost/service/foobar.php", array("deleteParam" => "foobar"));
