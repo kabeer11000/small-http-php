@@ -12,26 +12,27 @@ Ability to make HTTP-PUT/DELETE calls(useful for RESTful service testing)
 
 ## Example Usage
 
-# GET
+### GET
 
 ```
 $response = SmallHttp::HTTPGet("http://localhost/service/foobar.php", array("getParam" => "foobar"));
 ```
 
-# POST
+### POST
 
 ```
 $response = SmallHttp::HTTPPost("http://localhost/service/foobar.php", array("postParam" => "foobar"));
 ```
 
-# PUT
+### PUT
 
 ```
 $response = SmallHttp::HTTPPut("http://localhost/service/foobar.php", array("putParam" => "foobar"));
 ```
 
-# DELETE
+### DELETE
 
 ```
 $response = SmallHttp::HTTPDelete("http://localhost/service/foobar.php", array("deleteParam" => "foobar"));
 ```
+ By Kabeers Network - Helpful things that make life radically easier.
