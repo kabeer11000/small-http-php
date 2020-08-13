@@ -15,23 +15,23 @@ Ability to make HTTP-PUT/DELETE calls(useful for RESTful service testing)
 # GET
 
 ```
-$response = HTTPRequester::HTTPGet("http://localhost/service/foobar.php", array("getParam" => "foobar"));
+$response = SmallHttp::HTTPGet("http://localhost/service/foobar.php", array("getParam" => "foobar"));
 ```
 
 # POST
 
 ```
-$response = HTTPRequester::HTTPPost("http://localhost/service/foobar.php", array("postParam" => "foobar"));
+$response = SmallHttp::HTTPPost("http://localhost/service/foobar.php", array("postParam" => "foobar"));
 ```
 
 # PUT
 
 ```
-$response = HTTPRequester::HTTPPut("http://localhost/service/foobar.php", array("putParam" => "foobar"));
+$response = SmallHttp::HTTPPut("http://localhost/service/foobar.php", array("putParam" => "foobar"));
 ```
 
 # DELETE
 
 ```
-$response = HTTPRequester::HTTPDelete("http://localhost/service/foobar.php", array("deleteParam" => "foobar"));
+$response = SmallHttp::HTTPDelete("http://localhost/service/foobar.php", array("deleteParam" => "foobar"));
 ```
