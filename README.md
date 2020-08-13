@@ -1,4 +1,4 @@
-# small-http-php
+# Small HTTP <small>PHP</small>
 
 
 ## Improvements
