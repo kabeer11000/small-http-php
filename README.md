@@ -9,6 +9,7 @@ Returning the response instead of echoing it. Btw you can avoid the returning by
 After that the return value is a boolean(true = request was successful otherwise an error occured) and the response is echoed. See: http://php.net/en/manual/function.curl-exec.php
 
 Clean session closing and deletion of the curl-handler by using curl_close. See: http://php.net/manual/en/function.curl-close.php
+
 Using boolean values for the curl_setopt function instead of using any number.
 (I know that any number not equal zero is also considered as true, but the usage of true generates a more readable code, but that's just my opinion)
 Ability to make HTTP-PUT/DELETE calls(useful for RESTful service testing)
