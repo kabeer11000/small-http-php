@@ -1,5 +1,6 @@
 # Small HTTP <small>-PHP</small>
 
+Small HTTP Class to make HTTP-GET/POST/PUT/DELETE requests based on curl, concerning just about the response body.
 
 ## Improvements
 
